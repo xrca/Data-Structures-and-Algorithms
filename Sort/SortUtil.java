@@ -37,8 +37,8 @@ public class SortUtil {
      * 打印数组
      * @param arrayy
      */
-    public static void printArray(int[] arrayy) {
-        System.out.println(Arrays.toString(arrayy));
+    public static void printArray(int[] array) {
+        System.out.println(Arrays.toString(array));
     }
 
     /**
@@ -48,9 +48,17 @@ public class SortUtil {
      * @param j
      */
     public static void swap(int[] array, int i, int j) {
-        int tmp = array[i];
+        int temp = array[i];
         array[i] = array[j];
-        array[j] = tmp;
+        array[j] = temp;
     }
 
+    public static void insert(int[] array, int srcPos, int targetPos) {
+        int temp = array[srcPos];
+        for (int i = srcPos; i > targetPos; i--) {
+            array[i] = array[i - 1];
+        }
+        array[targetPos] = temp;
+    }
+    
 }
