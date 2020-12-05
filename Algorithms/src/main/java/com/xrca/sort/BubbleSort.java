@@ -1,9 +1,10 @@
-package Sort;
+package com.xrca.sort;
 
 /**
  * @author xrca
+ * @description 冒泡排序
  * @date 2020-05-02 11:20
- */
+ **/
 public class BubbleSort {
     public static void main(String[] args) {
         // 获取随机数组

@@ -1,5 +1,10 @@
-package Sort;
+package com.xrca.sort;
 
+/**
+ * @author xrca
+ * @description 归并排序
+ * @date 2020-05-02 14:54
+ **/
 public class MergeSort {
     public static void main(String[] args) {
         System.out.println(f(10));

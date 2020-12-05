@@ -1,9 +1,10 @@
-package Sort;
+package com.xrca.sort;
 
 /**
  * @author xrca
+ * @description 希尔排序
  * @date 2020-05-03 22:50
- */
+ **/
 public class ShellSort {
     public static void main(String[] args) {
         // 获取随机数组

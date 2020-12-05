@@ -1,4 +1,4 @@
-package Sort;
+package com.xrca.sort;
 
 import java.util.Arrays;
 import java.util.Random;

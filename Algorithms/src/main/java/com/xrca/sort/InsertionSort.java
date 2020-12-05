@@ -1,9 +1,10 @@
-package Sort;
+package com.xrca.sort;
 
 /**
  * @author xrca
+ * @description 插入排序
  * @date 2020-05-02 14:54
- */
+ **/
 public class InsertionSort {
     public static void main(String[] args) {
         // 获取随机数组

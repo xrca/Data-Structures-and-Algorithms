@@ -1,10 +1,10 @@
-package Sort;
+package com.xrca.sort;
 
 /**
- * 选择排序
  * @author xrca
+ * @description 选择排序
  * @date 2020-05-02 11:10
- */
+ **/
 public class SelectionSort {
     public static void main(String[] args) {
         // 获取随机数组
